@@ -1,0 +1,511 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-29T09:10:02.364",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "因果报应 Maharaja (2024)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-09-29T09:10:11.758",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "因果报应 Maharaja (2024)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-09-29T09:10:16.990",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "因果报应 Maharaja (2024)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-09-29T09:10:18.590",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "因果报应 Maharaja (2024)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-29T09:10:50.763",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "狗阵 (2024)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-29T09:11:56.331",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "怪画谜案",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-29T09:12:24.785",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "食南之徒",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add 电影",
+    "content_type": 7,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change 电影",
+    "content_type": 7,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete 电影",
+    "content_type": 7,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view 电影",
+    "content_type": 7,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add 读书",
+    "content_type": 8,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change 读书",
+    "content_type": 8,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete 读书",
+    "content_type": 8,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view 读书",
+    "content_type": 8,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$9N10wzbNtrbygR7bowGjHo$OqKje9QMXql7BnEDYGfqtDY6J4TPrD++U7TObB3cp8A=",
+    "last_login": "2024-09-29T08:57:15.361",
+    "is_superuser": true,
+    "username": "wmj",
+    "first_name": "",
+    "last_name": "",
+    "email": "wmj@wmj.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-29T08:56:48.707",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movie",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "book",
+    "model": "book"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f1hg2ifgrl2ra9nmrtqo1o3c98g6j22x",
+  "fields": {
+    "session_data": ".eJxVjcEOwiAQRP-FsyGFAosevfcbyC6sUjWQlPZk_Hdp0oNe572ZeYuA25rD1ngJcxIXocTpNyOMTy47SA8s9ypjLesyk9wVedAmp5r4dT3cv4GMLfe2BevhxsCDU6PzpJxHsKgMaG14dAb1mSiNcQBG9OAsmc6Zle4nEcXnC8FcN80:1suiFP:-u16RoJCqwVREj9jaecS7OwhwgMdDIx69xRXCfeE0Ck",
+    "expire_date": "2024-10-13T08:57:15.371"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 1,
+  "fields": {
+    "title": "因果报应 Maharaja (2024)",
+    "description": "在一个宁静的社区里，受人尊敬的中年理发师马哈拉吉与女儿乔蒂和拉克希米住在一起。当马哈拉吉向警方报案称有蒙面入侵者袭击了他并抢劫了拉克希米时，当局却拒绝了这一说法，并怀疑她所失财物的真实性。尽管他多次试图寻求帮助，但他还是不惜一切代价，甚至在女儿回来之前亲自调查。随着疑点越来越多，马哈拉吉的理智受到质疑，谜团也越来越深……",
+    "image": "movie/images/1_ibd9DTK.webp",
+    "url": "https://movie.douban.com/subject/36934908/"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 2,
+  "fields": {
+    "title": "狗阵 (2024)",
+    "description": "十余年前的西北小镇，刚出狱的二郎（彭于晏 饰）重归故土，面对偏见，面对防备，他不知该如何开启新生活。迫于生计加入打狗队后，二郎拯救了一只流浪黑狗，他也在和黑狗的相处中获得了再次上路的勇气。生命在暗处的绽放更凶猛有力，一人一狗在互相救赎中，拥抱着彼此的新生。",
+    "image": "movie/images/2_JJuXafh.webp",
+    "url": "https://movie.douban.com/subject/35242872/"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 1,
+  "fields": {
+    "title": "怪画谜案",
+    "description": "日本国民级推理小说！《怪屋谜案》后，网红作家雨穴惊喜新作！\r\n\r\n单本爆卖80万册，作品狂销300万册！\r\n\r\n神级伏笔，高能反转，中文简体版专属双重赠品！\r\n\r\n·\r\n\r\n【编辑推荐】\r\n\r\n★超越东野圭吾、伊坂幸太郎，日本亚马逊悬疑推理榜单前列！《怪屋谜案》后，超人气作家雨穴惊喜新作！\r\n\r\n日本亚马逊4.7星高分好评，评论数超6000；日本豆瓣bookmeter标记数超8000；畅销日本，全国书店大力推荐。\r\n\r\n★单本爆卖80万册，作品狂销300万册；单集视频播放量超500万次，改编漫画持续热销。日本国民级推理小说！轰动日本社会的网红作家！雨穴作品总销量超300万册，《怪屋》超100万，《怪画》超80万。看似平静的家庭之下，暗藏处心积虑的谋杀！\r\n\r\n★神级伏笔！高能反转！安乐椅侦探×图片型推理×沉浸式解谜......中文简体版专属双重赠品！\r\n\r\n冲击性的反转·噩梦般的罪行·夹缝中的人性。隐藏在这些画中的秘密，你有勇气去揭开吗？随书附赠作者亲绘印签＋PVC线索透卡，一秒入局！\r\n\r\n·\r\n\r\n博客网站上，名叫REN的男子记录着与妻子YUKI的恩爱日常，怀孕的YUKI不断用画笔描绘出对孩子和未来的美好憧憬。\r\n\r\n但奇怪的是，洋溢着幸福的博客在一年半前突然停止了更新......\r\n\r\n上幼儿园的优太为母亲节准备了一幅温馨的画，画面中优太和母亲直美并肩站在他们居住的公寓大楼旁，可诡异的是，只有优太住的房间被蜡笔杂乱地涂灰......\r\n\r\n美术老师三浦在登山时遇害，现场留下一幅似貌似是遗作的山景图，经警方确认，此画确实出自三浦之手，不过，画风却与平常截然不同......\r\n\r\n这些画......不正常！！！那个家......不对劲！！！",
+    "image": "book/images/3.jpg",
+    "url": "https://book.douban.com/subject/36858240/?icn=index-topchart-subject"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 2,
+  "fields": {
+    "title": "食南之徒",
+    "description": "ZUI贪吃的大汉使者唐蒙，\r\n\r\n来到了ZUI会吃的南越之国。\r\n\r\n这里食材丰富，简直就是饕餮之徒的梦想之地。然而，在美食背后，却涌动着南北对峙、族群隔阂、权位争斗、国策兴废……种种波谲云诡，竟比岭南食材的风味更加复杂。\r\n\r\n这个懒散的大汉使者，身陷岭南的政争漩涡。他唯一能信赖的伙伴，只有食物；唯一的破局之法，只有追求极致美食的心。\r\n\r\n谁都没想到，那一缕微妙滋味，竟关乎大汉与南越国运，乃至于整个中华版图……\r\n\r\n【编辑推荐】\r\n\r\n《食南之徒》是马伯庸2024年全新长篇历史小说。贪吃的汉使唐蒙来到饕餮圣地南越，没想到卷入南越宫廷的政争之中，南北对峙、族群隔阂、权位争斗、国策兴废……时局波谲云密，他能信赖的只有美食，能够破局的也只有那颗追求极致美食的心。更没人想到，唐蒙敏感的味觉竟然拓展了大汉对中华版图的认知……\r\n\r\n美食不会骗人，每个人在它面前，都会露出本性。\r\n\r\n1.马伯庸2024年全新长篇历史小说。\r\n\r\n2.西汉“吃货”唐蒙出使南越，从“躺平”到“趟平”的故事。\r\n\r\n3.一味不知原料的酱料，一枚原生北土的枣核，勾连出中华版图变迁的一段隐秘传奇，西南丝绸之路开拓史竟也由此展开。\r\n\r\n4.知名画家施晓颉绘制封面，随书附赠五折六联全彩明信片插图。",
+    "image": "book/images/4.jpg",
+    "url": "https://book.douban.com/subject/36710597/?icn=index-topchart-subject"
+  }
+}
+]

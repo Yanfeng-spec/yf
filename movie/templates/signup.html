@@ -1,0 +1,11 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<body>
+<div class="container">
+	<h2> {{ email }} 已注册成功</h2>
+	<a href="{% url 'home' %}">项目首页</a>
+	<a href="{% url 'moviehome' %}">注册页面</a>
+</div>
+</body>
+{% endblock content %}
